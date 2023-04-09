@@ -51,11 +51,6 @@ def delet_data():
         else:
             files = open('phonebook.txt', 'a', encoding='utf-8')
             files.writelines(' '.join(map(str, i)) + '\n')
-    #     for j in i:
-    #         list.append(j)
-    # data1 = ' '.join(map(str, list))
-    # files = open('phonebook.txt', 'w', encoding='utf-8')
-    # files.writelines(''.join(map(str, data1)))
 
 
 number = 0
